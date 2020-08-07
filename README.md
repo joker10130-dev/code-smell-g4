@@ -1,62 +1,46 @@
-# [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) :spiral_notepad:
+# [Code Smells](https://sourcemaking.com/refactoring/smells) :spiral_notepad:
 
-![Docker](https://miro.medium.com/max/405/1*UdM3Isk3gfnEOX7r6lWI8A.png)
+![Code Smells](https://www.somkiat.cc/wp-content/uploads/2016/01/Screen-Shot-2559-01-21-at-11.17.18-AM.jpg)
 
-## [General guidelines and recommendations](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
-  - [*Intro*](src/intro.md)
-  - [*Create ephemeral containers*](src/create-ephemeral-containers.md)
-  - [*Understand build context*](src/understanding-build-context)
-  - [*Pipe Dockerfile through* `stdin`](src/pipe-dockerfile-through-stdin.md)
-  - [*Exclude with .dockerignore*](src/exclude-with-dockerignore.md)
-  - [*Use multi-stage builds*](src/use-multi-stage-builds.md)
-  - [*Don’t install unnecessary packages*](src/dont-install-unnecessary-packages.md)
-  - [*Decouple applications*](src/decouple-applications)
-  - [*Minimize the number of layers*](src/minimize-the-number-of-layers.md)
-  - [*Sort multi-line arguments*](src/sort-multiline-arguments/sort-multiline-arguments.md)
-  - [*Leverage build cache*](src/leverage-build-cache/leverage-build-cache.md)
+## [Bloaters](#)
+  - *Long Method*
+  - *Large Class*
+  - *Primitive Obsession*
+  - *Long Parameter List*
+  - *Data Clumps*
+## [Object-Orientation Abusers](#)
+  - *Switch Statements*
+  - *Temporary Field*
+  - *Refused Bequest*
+  - *Alternative Classes with Different Interfaces*
+## [Change Preventers](#)
+  - *Divergent Change*
+  - *Shotgun Surgery*
+  - *Parallel Inheritance Hierarchies*
+## [Dispensables](#)
+  - *Comments*
+  - *Duplicate Code*
+  - *Lazy Class*
+  - *Data Class*
+  - *Dead Code*
+  - *Speculative Generality*
+## [Dispensables](#)
+  - *Feature Envy*
+  - *Inappropriate Intimacy*
+  - *Message Chains*
+  - *Middle Man*
+  - *Incomplete Library Class*
   
-  
-  ## [Dockerfile instructions](#)
-  - [FROM](src/FROM/from.md)
-  - [LABEL](src/LABEL/label.md)
-  - [*RUN*](src/RUN.md)
-    - [*APT-GET*](src/apt-get.md)
-    - [*USING PIPES*](src/Using-pipes.md)
-  - [*CMD*](src/CMD.md)
-  - [*EXPOSE*](src/EXPOSE.md)
-  - [*ENV*](src/ENV.md)
-  - [*ADD or COPY*](src/add-or-copy.md)
-  - [*ENTRYPOINT*](src/entrypoint.md)
-  - [*VOLUME*](src/volume.md)
-  - [*USER*](src/user.md)
-  - [*WORKDIR*](src/workdir.md)
-  - [*ONBUILD*](src/onbuild.md)
     
   
-
-
-
-
-
-
-
 ## References
 
 
-> [Code Smells Reference](https://docs.docker.com/engine/reference/builder/)
->> [More about Automated Builds](https://docs.docker.com/docker-hub/builds/)
-> > > 
+> [Code Smells Reference](https://sourcemaking.com/refactoring/smells)
+>> [Smells to Refactorings Quick Reference Guide](https://www.industriallogic.com/wp-content/uploads/2005/09/smellstorefactorings.pdf)
+> > > https://sourcemaking.com/refactoring/smells
+> > > > [CC :: SOMKIAT Developer ส่วนใหญ่ไม่รู้จัก Code Smell ?](https://www.somkiat.cc/developer-do-not-know-code-smell/)
 
-
-
-
-
-
-
-
-
-   
- 
 
 
 ## Authors :man_technologist:
