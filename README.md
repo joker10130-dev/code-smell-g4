@@ -1,12 +1,11 @@
 <h1 align="center" > Code Smells :nauseated_face:</h1>
-<font color="red">Status: **Not yet implemented**</font>
+# [Code Smells](https://sourcemaking.com/refactoring/smells) :nauseated_face:
 
 <p>
   <img src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.0&x2=0" />
 </p>
 
 <p  align="center">
-
   <img src="https://www.somkiat.cc/wp-content/uploads/2016/01/Screen-Shot-2559-01-21-at-11.17.18-AM.jpg" />
 </p>
 
