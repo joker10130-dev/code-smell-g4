@@ -1,4 +1,4 @@
-<h1 align="center" >[Code Smells](#) :nauseated_face:</h1>
+<h1 align="center" ><span style="color: green"> Code Smells </span>:nauseated_face:</h1>
 
 
 <p>
