@@ -1,7 +1,7 @@
 <h1 align="center" style="color:MediumSeaGreen;">Code Smells :nauseated_face:</h1>
 
 
-<p>
+<p  align="center">
   <img src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.0&x2=0" />
 </p>
 
