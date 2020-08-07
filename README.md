@@ -1,4 +1,4 @@
-<center># [Code Smells](https://sourcemaking.com/refactoring/smells) :nauseated_face:</center>
+<h1 align="center">Code Smells :nauseated_face:</h1>
 
 
 <p>
