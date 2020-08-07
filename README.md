@@ -1,4 +1,4 @@
-# [Code Smells](https://sourcemaking.com/refactoring/smells) :nauseated_face:
+# [Code Smells](https://sourcemaking.com/refactoring/smells) :nose:
 
 [![GitHub version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.0&x2=0)](https://github.com/Naereen/StrapDown.js)
 
@@ -7,7 +7,7 @@
 </p>
 
 
-## โค้ดของคุณส่งกลิ่นตุๆ อยู่หรือเปล่า :nose:
+## โค้ดของคุณส่งกลิ่นตุๆ อยู่หรือเปล่า :nauseated_face:
 
 
 ### [Bloaters](#)
