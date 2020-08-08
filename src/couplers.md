@@ -1,6 +1,6 @@
-# Couplers
+# Couplers :couple:
 
-## Code Smell แบบน้ําพึ่งเรือเสือพึ่งป่า
+## Code Smell แบบน้ำพึ่งเรือเสือพึ่งป่า
 
 ### มารู้จักกับ Coupling คืออะไร ?
 
