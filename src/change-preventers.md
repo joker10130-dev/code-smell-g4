@@ -5,7 +5,7 @@
 ## สารบัญ
 * [Divergent Change](#divergent-change)
 * [Shotgun Surgery](#shotgun-surgery)
-* [Parallel Inheritance Hierarchies](parallel-inheritance-hierchies)
+* [Parallel Inheritance Hierarchies](#parallel-inheritance-hierchies)
 
 ## Divergent Change
 หมายถึงการแก้ไขหลาย ๆ จุดเพื่อที่จะปรับคลาสเพียงคลาสเดียว
