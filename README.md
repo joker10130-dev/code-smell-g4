@@ -21,7 +21,7 @@
   - *Temporary Field*
   - *Refused Bequest*
   - *Alternative Classes with Different Interfaces*
-### [Change Preventers](src/change-preventer.md)
+### [Change Preventers](src/change-preventers.md)
   - *Divergent Change*
   - *Shotgun Surgery*
   - *Parallel Inheritance Hierarchies*
