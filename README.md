@@ -10,7 +10,7 @@
 ## โค้ดของคุณส่งกลิ่นตุๆ อยู่หรือเปล่า :nose:
 
 
-### [Bloaters](#)
+### [Bloaters](src/bloaters.md)
   - *Long Method*
   - *Large Class*
   - *Primitive Obsession*
