@@ -16,7 +16,7 @@
   - *Primitive Obsession*
   - *Long Parameter List*
   - *Data Clumps*
-### [Object-Orientation Abusers](src/Object-Orientation Abusers.md)
+### [Object-Orientation Abusers](src/Object-Orientation-Abusers.md)
   - *Switch Statements*
   - *Temporary Field*
   - *Refused Bequest*
