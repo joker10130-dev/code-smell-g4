@@ -64,6 +64,10 @@ method ใน class เรามีการเข้าถึงข้อมู
 ### สัญญาณและอาการ
 ในหนึ่ง class มีการใช้ internal field และ method จาก class อื่นๆ
 
+<p align="center">
+  <img src="https://sourcemaking.com/images/refactoring-illustrations/2x/inappropriate-intimacy-1.png" />
+</p>
+
 ### สาเหตุของปัญหา
 ในบางครั้ง class ต่างๆ อาจมีความใกล้ชิดสนิทสนมกันมากไป เรียกใช้ข้อมูลจาก class อื่น โดยไม่จำเป็นหรือเยอะเกิน 
 และมีการเข้าถึง private field ของกันและกันเกินพอดี การออกแบบ class ที่ดีควรที่จะรู้เรื่องของกันและกันให้น้อยที่สุด
@@ -75,6 +79,14 @@ method ใน class เรามีการเข้าถึงข้อมู
 + เปลี่ยนจาก Bidirectional Association มาเป็น Unidirectional
 + เปลี่ยนจากการ Inherit มาใช้การ Delegate (ใช้งานคนอื่น)แทน
 
+<p align="center">
+  <img src="https://sourcemaking.com/images/refactoring-illustrations/2x/inappropriate-intimacy-2.png" />
+</p>
+
 ### ผลตอบรับ
 + ช่วยให้ปรับปรุงจัดการโค้ดได้ดีขั้น
 + ลดความซับซ้อน และ reuse โค้ด
+
+<p align="center">
+  <img src="https://sourcemaking.com/images/refactoring-illustrations/2x/inappropriate-intimacy-3.png" />
+</p>
