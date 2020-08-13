@@ -90,3 +90,35 @@ method ใน class เรามีการเข้าถึงข้อมู
 <p align="center">
   <img src="https://sourcemaking.com/images/refactoring-illustrations/2x/inappropriate-intimacy-3.png" />
 </p>
+
+
+
+## Message Chains
+### สัญญาณและอาการ
+ในโค้ดของเรามีการเรียกใช้ method ต่อกันเป็นทอดๆ ยกตัวอย่างเช่น ```foo.getBar().getFoo().getThis().getThat().doSomething();```
+
+<p align="center">
+  <img src="https://sourcemaking.com/images/refactoring-illustrations/2x/message-chains-1.png" />
+</p>
+
+
+### สาเหตุของปัญหา
+ห่วงโซ่ข้อความเกิดขึ้นเมื่อ client request object อื่น object นั้นจะ request object อื่นต่อกันเป็นห่วงโซ่ หมายความว่า client ขึ้นอยู่กับตามโครงสร้าง class การเปลี่ยนแปลงใด ๆ จำเป็นต้องปรับเปลี่ยน client
+ตาม มีการเรียกใช้ method ต่อๆกันจำนวนมากทำให้โค้ดไม่ยืดหยุ่น เพราะขึ้นอยู่กับความสัมพันธ์ระหว่าง object 
+
+### การบำรุงรักษา
++ Extract Method 
++ Hide Delegate
++ Move Method
++ ควรพิจารณาว่าควรจะยุบตรงไหน โดยที่ไม่ให้ค่าเปลี่ยน
+
+<p align="center">
+  <img src="https://sourcemaking.com/images/refactoring-illustrations/2x/message-chains-2.png" />
+</p>
+
+### ผลตอบรับ
++ สามารถลดการพึ่งพาระหว่าง class
+
+<p align="center">
+  <img src="https://sourcemaking.com/images/refactoring-illustrations/2x/message-chains-3.png" />
+</p>
