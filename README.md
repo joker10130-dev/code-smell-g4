@@ -1,6 +1,6 @@
 # [Code Smells](https://sourcemaking.com/refactoring/smells) :nauseated_face:
 
-[![GitHub version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.0&x2=0)](https://github.com/Naereen/StrapDown.js)
+[![GitHub version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=8.8.20&x2=0)](https://github.com/Naereen/StrapDown.js)
 
 <p  align="center">
   <img src="https://www.somkiat.cc/wp-content/uploads/2016/01/Screen-Shot-2559-01-21-at-11.17.18-AM.jpg" />
