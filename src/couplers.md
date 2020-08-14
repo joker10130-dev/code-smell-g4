@@ -122,3 +122,25 @@ method ใน class เรามีการเข้าถึงข้อมู
 <p align="center">
   <img src="https://sourcemaking.com/images/refactoring-illustrations/2x/message-chains-3.png" />
 </p>
+
+
+## Middle Man
+### สัญญาณและอาการ
+class ทำหน้าที่เพียงอย่างเดียวโดย delegate กับ class อื่นๆ
+
+<p align="center">
+  <img src="https://sourcemaking.com/images/refactoring-illustrations/2x/middle-man-1.png" />
+</p>
+
+### สาเหตุของปัญหา
+การ delegate นั้นเป็นสิ่งที่ดีและเป็นหนึ่งในคุณสมบัติพื้นฐานที่สำคัญของ object แต่สิ่งที่ดีมากเกินไปอาจนำไปสู่ object ที่มีหน้าที่เพียงแค่ส่งข้อความไปยัง object อื่นๆ
+
+### การบำรุงรักษา
++ ลบ class ที่เป็น Middle Man 
+
+### ผลตอบรับ
++ ช่วยลดปริมาณของโค้ดลง
+
+<p align="center">
+  <img src="https://sourcemaking.com/images/refactoring-illustrations/2x/middle-man-2.png" />
+</p>
